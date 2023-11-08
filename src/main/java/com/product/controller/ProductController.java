@@ -40,7 +40,7 @@ public class ProductController {
 		public List <ProductEntity> getValues() {
 		PropertyConfigurator.configure("log4j.properties");
 		log.info(ps.getValues());
-		return ps.getValues();
+		return ps.getValues(); //return
 		
 		}
 }
@@ -77,7 +77,7 @@ public String setName() {
 	public int findAdd(@PathVariable int a, @PathVariable int b) {
 		return a+b;
 	}*/
- //for git
+ 
 
 
 
